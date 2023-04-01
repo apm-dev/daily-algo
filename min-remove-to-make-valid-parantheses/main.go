@@ -4,6 +4,10 @@ import (
 	"bytes"
 )
 
+// medium
+// https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+// time: O(n) space: O(n)
+
 func minRemoveToMakeValid(s string) string {
 	stack := []int{}
 	shouldDelete := make([]bool, len(s))
